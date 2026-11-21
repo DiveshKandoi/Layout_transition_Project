@@ -45,7 +45,7 @@ HOURS_PER_DAY = 8
 PAID_MINUTES = WORKING_DAYS * HOURS_PER_DAY * 60
 WORKER_EFFICIENCY = 0.50
 PRODUCTIVE_MINUTES_PER_WORKER = PAID_MINUTES * WORKER_EFFICIENCY
-BASE_WORKERS = {'Cutting': 2, 'Stitching': 7, 'Finishing': 2}
+BASE_WORKERS = {'Cutting': 6, 'Stitching': 24, 'Finishing': 6}
 
 
 # --------------------------------------------------------------------------
